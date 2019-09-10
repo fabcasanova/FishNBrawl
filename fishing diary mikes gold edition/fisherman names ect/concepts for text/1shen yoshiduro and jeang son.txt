@@ -1,0 +1,19 @@
+okay so i was thinking, these guys's dialog and animation begins as hitting a hotspot on the map.  next to the rangers near the ranger station.  jaeng son will be training jr. ranger shen yoshiduro.
+
+you will see SHEN move around army style as text bubbles appear around jaeng, and shen repeating his lines.  your character will either be watching (shown in the frame)  or (maybe it will only show these rangers in the frame).
+
+json - focus shen
+
+json - max power
+
+json - this is a most serious job
+
+json - rangers must uphold the rules of the lake
+
+json - it is an utmost important responsibility
+
+json - shen.. what is our duty??
+
+SHEN - TO UPHOLD THE RULES OF THE LAKE!!
+
+json - good work.. shen. you will be a super ranger

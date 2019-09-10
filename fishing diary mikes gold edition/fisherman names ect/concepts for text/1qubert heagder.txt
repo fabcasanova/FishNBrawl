@@ -1,0 +1,19 @@
+>>halt who goes there!
+brutus - im brutus and this here is my friend ted.  
+ludhvic - i am ludhvic, yes, and here is my trusty pal branch.
+>> exellent it seems the waters here have culled upon you to fish yes it seems so.  
+>>
+
+
+
+||NPC approaches at frame||
+
+>>qubert-  halt who goes there!
+
+played character response 1 - i am (name),  about to reel out.  catch a zilla.
+
+>>qubert's reseponse to R1 - excellent it seems the waters here have culled upon you to fish, yes, it seems so..
+
+played character's response to qubert's response-->  indeed indeed good day.
+
+>>quebert's response to RqR - well met.

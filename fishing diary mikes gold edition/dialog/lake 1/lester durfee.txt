@@ -1,0 +1,27 @@
+
+
+||lester durfee patrolling||
+
+lester:  im well casting about 90 yards out there with my rig.
+
+--player1:  oh yeah is that so?  I bet your clunking a huge weight along with that rig.!?
+
+--player2(nice gester, no fight):  darn, i'd say your a hotshot casting about 90.
+
+#1 lester if(1,2):  when you cast as far as me.  that's when you know your going to get a bite.
+
+--player response if(1):  when anyone casts as far as you, i'd hope they don't clunk they own head with that big ol' weight that's clunking around.
+
+--player response if(2):  darn i'm casting pretty far my self, those fish be fighting and biting i'll tell you what.
+
+#2 lester response if(1):  hey buddy, you want to settle this?
+
+#2 lesters 2nd response if(2):  how far you casting right now champ!?
+
+--player's response to (2nd lester) if(2):  oh well i reckon about 100 yards or more.
+
+#3 lesters 3rd response if(2):  100 YARDS!,  are you saying your a better fisherman than i am!!??
+
+--player's response to lester2nd if(2):  I'm saying you ain't so tuff and i reckon that you ain't casting to far as i am
+
+#4 lesters 4th reponse if(2):  Alright that's it, your going to get smashed.

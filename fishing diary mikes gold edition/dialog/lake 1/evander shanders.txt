@@ -1,0 +1,18 @@
+evander>> them darn fish ate my line
+
+player selection1 - maybe you should use a heavier test numbskull
+
+player selection2 - better luck next time!  when it's hunting time, it's time to hunt, and you ain't catching zilch.
+
+evander if(1)>> you calling me out!
+[begins fight]
+
+evander if(2)>>  we'll i'll probly have to swap lines or rigs for this catch.  Theres definatley some big whopers breaking my line!
+
+player if(2) selection 1:  oh ya try a different test,  that will reel them in hopefully.
+
+player if(2) selection 2:  might as well go for some shrillards with that rig,  they ain't pulling a' to hard i reckon.
+
+evander if(2) sel(1,2)>>:  i'll be now,  oh, and watch out for daggermouth carlo,  he's not one to hang around, get's rowdy he is.  bye.
+
+||fight engages||

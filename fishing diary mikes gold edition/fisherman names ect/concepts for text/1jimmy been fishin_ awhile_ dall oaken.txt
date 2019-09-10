@@ -1,0 +1,20 @@
+low aggrevation
+calm fisherman
+
+>> jim - man ihav been fishin awhile, caught me a dang ding woot of a catch i'll tell ya what.
+brutus - you ain't catch nothing, till you catch a trophy fish
+ludhvic - it's not always about how much you catch
+>> jim#2 - you think your a better fisherman than me?  Well put up your fist if you think your better!  I'll wrestle you down just like all these fish i caught!
+
+
+
+||played character approach||
+jim speaks first
+
+>> jim - man i have been fishin' awhile', caught me a dang ding woo of a catch i'll tell ya what.!!
+
+agro1 played character response- you ain't catch nothing, till you catch a trophy fish..!
+
+nonagro1 played character response- it's not always about how much you can catch..
+
+>>jim's response - you think your a better fisherman than me?  Well then, put up your fist if you think your better!  I'll wrestle you down just like all these fish i caught!

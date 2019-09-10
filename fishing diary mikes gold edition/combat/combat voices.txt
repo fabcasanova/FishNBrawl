@@ -1,0 +1,15 @@
+::::concises of in combat voices (caroling with grunts):::::
+
+Time to smash!
+I feel anger!
+OOO! you want pain!
+Your going down!
+I'm guna knock you out!
+
+
+maybe even text dialog in combat
+we could do
+like the game pauses on it's own
+either random during the fight
+or at a certain health
+or time duration
