@@ -1,0 +1,28 @@
+|||bud johnson's greetings'
+_____________________________
+
+1.  yeah i've been fishing this here lake since i was a little bud.  Now that i'm big bud, i run this here tackle shop.
+
+2.
+
+3.
+
+
+character 1st. response list.
+1.hey bud, you got any tips for this lake?
+
+bud>>watch out for other fisherman, they get a little rowdy over here in jeredur.
+
+character 2nd. response list.
+2.i'm thinking about entering the competition here at jeredur.
+
+bud>>then you'll be up against zed helibuck.  he's caught all kind's of blarts over here.
+
+character 3rd. response list.
+3.what kind of lures you using bud?
+
+bud>>depends what kind of fish your going for.
+3.1.i'm looking for some zalbooni's
+3.2. maybe plan on catching me some blarts.
+3.3. definatly going for some 
+

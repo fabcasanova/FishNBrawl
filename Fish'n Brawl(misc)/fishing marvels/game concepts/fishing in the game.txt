@@ -1,0 +1,9 @@
+1,auto fishing
+--->>either click water/position then activates fishing diorama.
+2,one button button fishing
+--->>on strike
+--->>on cast
+--->>both = too much clicking
+3,textual fishing, dialog fishing.
+--->>shows animation shows text
+--->>can be combined.

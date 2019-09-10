@@ -1,0 +1,181 @@
+package pack.phatsmalone.FnB;
+
+import java.awt.Canvas;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferInt;
+
+import javax.swing.JFrame;
+
+public class MainGame extends Canvas implements Runnable {
+
+	/**  Serialization For conventional java programming
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;								//1 is casted as a long data type
+
+				public static int width = 300;										//set resolution
+				
+				public static int height = 168;
+
+				public static int scale = 3;
+				
+				public static String title = "Fish'n'Brawl";
+				
+				private Thread mainThread;
+				
+				private JFrame frame;
+				
+				private boolean running = false;
+				
+				private Screen screen;							
+				
+				private BufferedImage image = new BufferedImage(width,height, BufferedImage.TYPE_INT_RGB );
+				
+				private int[] pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
+				
+				
+				public MainGame() {
+					
+					Dimension size =  new Dimension(width*scale, height*scale);
+					setPreferredSize(size);
+					
+					screen = new Screen(width,height);									//instance that projects graphics from class screen
+					
+					frame = new JFrame();
+					
+				}
+				
+				public synchronized void start() {											//start the game and create another subprocess or instance
+					
+					running  = true;
+					
+					mainThread = new Thread(this, "Display");
+					
+					mainThread.start();
+					
+				}
+
+				public static void main(String args[]) {
+					
+					MainGame game = new MainGame();															// creating a new instance
+					game.frame.setResizable(false);															//doesn't allow user to resize
+					game.frame.setTitle("Fish'N'Brawl");													//Title on window
+					game.frame.add(game);																	//fills the widow with content of the game
+					game.frame.pack();																		//sets the size of the frame to console
+					game.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);								//closes program on standard exit button, will be changed later
+					game.frame.setLocationRelativeTo(null);													//sets widow to the center of the screen
+					game.frame.setVisible(true);															//makes sure content is visible
+					game.start();																			//start the brawl
+				}
+				
+				
+				
+				public synchronized void stop() {											//stop the game and stop all processes
+					
+					running =  false;
+					
+					try {
+							mainThread.join();
+						}
+					
+					catch(InterruptedException e) {
+								
+							e.printStackTrace();
+						
+						}
+					
+					
+							}		
+				
+				public void run() {																//run a game loop to prevent game from stopping
+					
+					long lastTime = System.nanoTime();
+					
+					long timer = System.currentTimeMillis();
+					
+					final double ns = 1000000000.0/60.0;
+					
+					double delta = 0;
+				
+					int frames = 0;
+					
+					int updates = 0;
+					
+					while (running == true) {
+						
+						long now = System.nanoTime();
+						
+						delta += (now - lastTime)/ ns;
+						
+						lastTime = now;
+						
+						while (delta >= 1) { 
+							
+							update();																//method that does all the logic of the game
+							updates++;															//keep track of updates
+							
+							delta--;
+						}
+						
+						render();																//method that does all the rendering
+						
+						frames++;															//keep track of frames	
+						
+							if (System.currentTimeMillis() - timer > 1000) {
+								
+								timer += 1000;
+								System.out.println(updates + " ups, " + frames + "fps");
+								frame.setTitle(title +" | " + updates + " ups, " + frames + "fps" );
+								
+								updates = 0;
+								frames =0;
+								
+								
+							}
+						
+					}
+					
+					stop();
+					
+				}
+				
+				public void update(){
+					
+				}
+				
+				public void render() {
+					
+					BufferStrategy bs = getBufferStrategy();								//BufferStrategy is a subclass of Canvas
+					
+					if (bs == null) {
+						
+						createBufferStrategy(3);
+						
+						return;
+					
+					}
+					
+					screen.render();									//renders each pixel to the screen
+					screen.clear();										// clears each screen
+					
+					
+					for (int i = 0; i < pixels.length; i++) {
+						
+						pixels[i] = screen.pixels[i];
+					
+					}
+					
+					Graphics g = bs.getDrawGraphics();										//links graphical features to bufferstrategy
+					g.drawImage(image, 0, 0, getWidth(), getHeight(), null);		//DRAWS IMAGE ON BUFFER
+					g.dispose();															//disposes rendered images in buffer that are no longer needed
+					bs.show();																//shows next available rendered image in bufferstrategy
+					
+						}
+			
+				
+				
+	}

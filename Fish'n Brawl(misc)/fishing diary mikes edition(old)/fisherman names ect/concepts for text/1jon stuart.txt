@@ -1,0 +1,38 @@
+low aggression level: player approaches jon stuart.
+
+ludhvic:  hey fisherman,  try and tie a double duper knot, without getting yourself all tide in a jingle!
+
+brutus:  hey fisherman,  try casting your reel out there so you can get some diggles there.
+
+jon stuart:  better gitty up partner,  the winds is setting in
+
+ludhvic:  i'll wait till the birds done tell me that.
+
+brutus:  hey there im not trying to get all rowdy now.
+
+
+||character played approach||
+
+played character says selection1 - 
+
+1*hey fisherman, try and tie a double duper knot, without getting yourself all tide in a jingle!
+
+2*hey fisherman - try casting your reel out there so you can get some diggles there.
+
+jon stuarts response12- better gitty up partner, the winds is setting in.
+
+played character's response selection1 -
+
+1*i'll wait till the birds done tell me that.
+
+2*hey there im not trying to get all rowdy now.
+
+
+fight begins.
+
+
+maybe tie sayings 1 to 1 and 2 to 2
+
+and 1 starts a fight 2 does not.
+
+

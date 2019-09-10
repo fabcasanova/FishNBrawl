@@ -1,0 +1,30 @@
+private class SmallVarList{
+
+private int smallVar;
+
+public void InputInts(){}
+
+public void GetIntSelection()
+	{
+
+	return currentVar;
+	
+	}
+
+public void SetSmallVar(int currentVar)
+	{
+	
+	smallVar = currentVar;
+	
+	}
+
+public void DisplaySmallVarMessage()
+
+	{
+	
+	System.out.printf();
+
+
+	}
+	
+}

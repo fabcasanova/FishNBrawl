@@ -1,0 +1,22 @@
+Fish'n Brawl
+
+
+1. Main menu theme
+
+	a. enter level 
+	b. options
+	
+2. Brawling lake 1
+	
+	a. Quests, Objectives
+	
+3. Brawling lake 2
+
+	a. Quests, Objectives
+	b. Brawling Mode
+	
+4. Brawling lake 3
+
+	a. Quests, Objectives
+	b. Brawling Mode
+	c. Fish'n Brawl Tournament

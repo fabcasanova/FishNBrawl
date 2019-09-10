@@ -1,0 +1,27 @@
+The rusty docks
+
+character:  Hey captain, hows the catch?
+
+
+Mike:  You not talkin' me'
+
+
+selection1:  not trying to be rude here.  names [name].
+
+selection2:  Yeah I is, who are you toughing teh be?
+
+
+Mike:  I'm mike you heard, just getting my flex on man'
+("flex animation")
+
+
+selection1:  well alright then mike nice to meet you on this here ol rusty dock.
+
+selection2:  Oh i heard you catching blarters out here.
+
+
+mike:  I grab thems fishys with my darn hands.  my pole is my arm.  and my arm is flexing.
+ 
+
+
+

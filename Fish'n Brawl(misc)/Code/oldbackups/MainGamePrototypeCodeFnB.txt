@@ -1,0 +1,45 @@
+package Pack.phatsmalone.FnB;
+
+public class MainGame implements Runnable {
+
+				public static int width = 600;
+				
+				public static int height = width / (16*9);
+
+				public static int scale = 3;
+				
+				private Thread mainThread;
+				
+				private boolean running = false;
+				
+				
+				public synchronized void start() {
+					
+					mainThread = new Thread(this, "Display");
+					
+					mainThread.start();
+					
+				}
+
+				public synchronized void stop() {
+					
+					try {
+							mainThread.join();
+					}
+					
+					catch(InterruptedException e) {
+								
+							e.printStackTrace();
+						
+					}
+					
+					
+				}	
+
+				public void run(){
+				
+				
+				
+				}
+				
+}

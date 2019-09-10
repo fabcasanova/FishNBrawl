@@ -1,0 +1,15 @@
+JAVA DEFINITIONS
+
+java virtual machines - The software that runs the java program with the extension .java, and runs previously compiled .class files, 
+available for all major OS'software
+
+
+java development kit - Contains the java compiler and the JVM.
+
+Integrated development Environment -  Program to type in the source code, Helps catch code errors and write code faster
+
+Method - Same as a function in c++, it is a block of code that is designed to perform a task
+
+Main Method - Programs start executing with the main method, once the main method is done executing, the program ends, other methods can be called from main
+
+Classes - Class is a blue print in which other objects are created, .java name must match class defined in the file

@@ -1,0 +1,11 @@
+__Lake Jeredur__
+||| training|||
+1.  Jimmy been fishing awhile dall oaken
+
+|||next area = bait shop|||
+1.  entering the bait shop
+[inside the baitshop =  bud johnson, ranodon sprite looking at bait.]
+!!!interaction with baitshop floor items is allowed
+
+|||section 1|||
+1.evander shanders, lester durfee

@@ -1,0 +1,15 @@
+Options
+
+
+1. Game Settings
+	
+	a. Sound settings
+		
+		i.  	Menu volume
+		ii. 	Background volume
+		iii.	Voice volume
+		iv.		Sound effects
+		
+	b. Screen button mode
+		
+		i.		Configurations
