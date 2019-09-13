@@ -6,9 +6,9 @@ import pack.phatsmalone.FnB.Level.tile.Tile;
 
 public class Screen {
 	
-	public int width;
+	public  int width;
 	
-	public int height;
+	public  int height;
 	
 	public int[] pixels;
 	
